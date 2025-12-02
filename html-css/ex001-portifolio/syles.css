@@ -39,20 +39,30 @@ gap: 40px;
     font-family: "Montserrat", sans-serif;
 }
 
+.links__subtitulo{
+    font-family: "Krona One", sans-serif;
+    font: weight 400px;
+    font-size: 24px;
+}
+
 .links{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
 }
 
 .links__botao{
-    background-color: #22d4fd;
-    width: 280px;
+   /* background-color: #22d4fd;*/
+   border: #22d4fd;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family:"Montserrat", sans-serif;
 }
